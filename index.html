@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deluxe — продвижение на Яндекс Картах и создание сайтов</title>
+  <meta name="description" content="Поднимаем бизнес в выдаче Яндекс Карт, оформляем карточку организации, исправляем маршрут до входа и делаем сайты.">
+  <meta name="theme-color" content="#08080B">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Deluxe">
+  <meta property="og:title" content="Deluxe — продвижение на Яндекс Картах и создание сайтов">
+  <meta property="og:description" content="Поднимаем бизнес в выдаче Яндекс Карт, оформляем карточку организации, исправляем маршрут до входа и делаем сайты.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <!-- Lucide icons (ISC), inlined as a sprite to skip the runtime -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+      <symbol id="i-trending-up" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></symbol>
+      <symbol id="i-layout-grid" viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></symbol>
+      <symbol id="i-navigation" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+      <symbol id="i-monitor-smartphone" viewBox="0 0 24 24"><path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"/><path d="M10 19v-3.96 3.15"/><path d="M7 19h5"/><rect width="6" height="10" x="16" y="12" rx="2"/></symbol>
+      <symbol id="i-search-x" viewBox="0 0 24 24"><path d="m13.5 8.5-5 5"/><path d="m8.5 8.5 5 5"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+      <symbol id="i-clipboard-x" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m15 11-6 6"/><path d="m9 11 6 6"/></symbol>
+      <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+      <symbol id="i-shopping-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+      <symbol id="i-door-open" viewBox="0 0 24 24"><path d="M13 4h3a2 2 0 0 1 2 2v14"/><path d="M2 20h3"/><path d="M13 20h9"/><path d="M10 12v.01"/><path d="M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+      <symbol id="i-external-link" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3"/></symbol>
+      <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Deluxe — на главную">Deluxe</a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#services">Услуги</a></li>
+          <li><a class="nav__link" href="#works">Работы</a></li>
+          <li><a class="nav__link" href="#contacts">Контакты</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta" href="https://t.me/arbitrazn1k" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+          Связаться
+        </a>
+      </nav>
+
+      <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Открыть меню">
+        <svg class="icon burger__open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon burger__close" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="glow glow--hero" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1 class="hero__title" id="hero-title">
+            Клиенты ищут вас на&nbsp;картах. <span class="accent">Мы делаем так, чтобы они вас нашли</span>
+          </h1>
+          <p class="hero__lead">
+            Deluxe — продвижение бизнеса на&nbsp;Яндекс Картах и&nbsp;создание сайтов.
+            Поднимаем вас в&nbsp;выдаче, оформляем карточку, исправляем маршрут и&nbsp;собираем всё в&nbsp;одном сайте.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="https://t.me/arbitrazn1k" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+              Обсудить проект
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#works">
+              Смотреть работы
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="problems-title">
+      <div class="container">
+        <h2 class="section__title reveal" id="problems-title">Почему клиенты уходят к&nbsp;конкурентам</h2>
+        <ul class="problems">
+          <li class="card problem reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-search-x"/></svg></span>
+            <p><strong>Вас не видно в&nbsp;поиске</strong> — человек вбивает «Цветы» и&nbsp;видит другие магазины</p>
+          </li>
+          <li class="card problem reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-clipboard-x"/></svg></span>
+            <p><strong>Карточка пустая</strong> — нет товаров и&nbsp;услуг, и&nbsp;клиент идёт туда, где они есть</p>
+          </li>
+          <li class="card problem reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg></span>
+            <p><strong>Маршрут ведёт не&nbsp;туда</strong> — навигатор приводит к&nbsp;другой стороне дома</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="glow glow--left" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section__title reveal" id="services-title">Что мы делаем</h2>
+        <div class="services">
+          <article class="card service reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-trending-up"/></svg></span>
+            <h3 class="service__title">Продвижение на&nbsp;Яндекс Картах</h3>
+            <p>Подключаем рекламную подписку на&nbsp;Яндекс Картах. Когда клиент ищет ваш товар или услугу, ваша организация показывается в&nbsp;первых строках выдачи. Непродвинутые конкуренты становятся видны, только когда карту приближают.</p>
+          </article>
+          <article class="card service reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-layout-grid"/></svg></span>
+            <h3 class="service__title">Оформление карточки организации</h3>
+            <p>Заполняем раздел «Товары и&nbsp;услуги». Если у&nbsp;вас нет сайта, клиент всё равно сразу увидит, есть ли у&nbsp;вас нужный продукт, и&nbsp;не&nbsp;уйдёт смотреть другое место.</p>
+          </article>
+          <article class="card service reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-navigation"/></svg></span>
+            <h3 class="service__title">Корректный маршрут до&nbsp;входа</h3>
+            <p>Бывает, что Яндекс строит маршрут к&nbsp;другой стороне здания, а&nbsp;вход у&nbsp;вас с&nbsp;противоположной. Исправляем это, чтобы клиенты приходили прямо к&nbsp;вашей двери.</p>
+          </article>
+          <article class="card service reveal">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-monitor-smartphone"/></svg></span>
+            <h3 class="service__title">Сайт для бизнеса</h3>
+            <p>Дополняем продвижение сайтом, где собрана вся актуальная информация о&nbsp;вашем бизнесе.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="benefits-title">
+      <div class="container">
+        <h2 class="section__title reveal" id="benefits-title">Что это даёт вам</h2>
+        <ul class="benefits">
+          <li class="benefit reveal">
+            <span class="icon-badge icon-badge--sm"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg></span>
+            <p>Вас находят первыми в&nbsp;поиске на&nbsp;картах</p>
+          </li>
+          <li class="benefit reveal">
+            <span class="icon-badge icon-badge--sm"><svg class="icon" aria-hidden="true"><use href="#i-shopping-bag"/></svg></span>
+            <p>Клиент сразу видит, что у&nbsp;вас есть нужный товар или услуга</p>
+          </li>
+          <li class="benefit reveal">
+            <span class="icon-badge icon-badge--sm"><svg class="icon" aria-hidden="true"><use href="#i-door-open"/></svg></span>
+            <p>Клиенты приходят к&nbsp;правильному входу, а&nbsp;не&nbsp;бродят вокруг дома</p>
+          </li>
+          <li class="benefit reveal">
+            <span class="icon-badge icon-badge--sm"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg></span>
+            <p>Вся актуальная информация о&nbsp;бизнесе собрана на&nbsp;одном сайте</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section works" id="works" aria-labelledby="works-title">
+      <div class="glow glow--center" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section__title reveal" id="works-title">Наши работы</h2>
+        <p class="section__lead reveal">Сайты, которые мы сделали для бизнеса</p>
+      </div>
+
+      <div class="works__viewport">
+        <ul class="works__track" id="works-track" aria-label="Портфолио">
+          <!-- rendered from projects[] in script.js; static fallback for no-JS -->
+          <li class="work"><a class="work__fallback" href="https://flowersyasenevo.vercel.app" target="_blank" rel="noopener">Цветочный магазин — flowersyasenevo.vercel.app</a></li>
+          <li class="work"><a class="work__fallback" href="https://recodestudio.ru" target="_blank" rel="noopener">ReCode Studio — recodestudio.ru</a></li>
+          <li class="work"><a class="work__fallback" href="https://nails-nine-neon.vercel.app" target="_blank" rel="noopener">Студия маникюра — nails-nine-neon.vercel.app</a></li>
+        </ul>
+      </div>
+      <div class="works__dots" id="works-dots" role="group" aria-label="Слайды портфолио" hidden></div>
+    </section>
+
+    <section class="section contact" id="contacts" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="card contact__card reveal">
+          <div class="glow glow--contact" aria-hidden="true"></div>
+          <h2 class="section__title contact__title" id="contact-title">Обсудим ваш бизнес?</h2>
+          <p class="contact__text">Напишите нам — расскажем, что можно улучшить на&nbsp;картах и&nbsp;нужен ли&nbsp;вам сайт.</p>
+          <div class="contact__actions">
+            <a class="btn btn--primary btn--lg" href="https://t.me/arbitrazn1k" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+              Написать в&nbsp;Telegram
+            </a>
+            <a class="btn btn--ghost btn--lg" href="tel:+79199992448">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              +7 919 999-24-48
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">Deluxe © 2026</p>
+      <ul class="footer__links">
+        <li>
+          <a href="https://t.me/arbitrazn1k" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>Telegram
+          </a>
+        </li>
+        <li>
+          <a href="tel:+79199992448">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>+7 919 999-24-48
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
